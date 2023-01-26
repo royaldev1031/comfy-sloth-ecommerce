@@ -19,10 +19,10 @@ const Hero = () => {
         <Link to="/products" className="btn hero-btn">
           shop now
         </Link>
-        <article className="img-container">
-          <img src={heroBcg} alt="nice table" className="main-img" />
-          <img src={heroBcg2} alt="person working" className="accent-img" />
-        </article>
+      </article>
+      <article className="img-container">
+        <img src={heroBcg} alt="nice table" className="main-img" />
+        <img src={heroBcg2} alt="person working" className="accent-img" />
       </article>
     </Wrapper>
   )
