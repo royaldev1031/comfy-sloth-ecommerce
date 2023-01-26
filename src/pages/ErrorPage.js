@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 const ErrorPage = () => {
   return (
-    <Wrappe className="page-100">
+    <Wrapper className="page-100">
       <section>
         <h1>404</h1>
         <h3>Sorry, the page you tried cannot be found</h3>
@@ -11,7 +11,7 @@ const ErrorPage = () => {
           back home
         </Link>
       </section>
-    </Wrappe>
+    </Wrapper>
   )
 }
 

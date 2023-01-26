@@ -9,7 +9,7 @@ const Hero = () => {
     <Wrapper className="section-center">
       <article className="content">
         <h1>
-          disign your <br />
+          design your <br />
           comfort zone
         </h1>
         <p>
