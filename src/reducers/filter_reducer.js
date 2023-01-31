@@ -26,6 +26,14 @@ const filter_reducer = (state, action) => {
   if (action.type === UPDATE_SORT) {
     return { ...state, sort: action.payload }
   }
+  if (action.type === SORT_PRODUCTS) {
+    const { sort, filtered_products } = state
+    let tempProducts = []
+    if (sort === 'prict-lowest') {
+      console.log('price-lowest')
+    }
+    return { ...state }
+  }
   throw new Error(`No Matching "${action.type}" - action type`)
 }
 
