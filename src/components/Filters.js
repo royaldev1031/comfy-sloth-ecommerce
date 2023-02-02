@@ -23,7 +23,7 @@ const Filters = () => {
 
   const categories = getUniqueValues(all_products, 'category')
   const companies = getUniqueValues(all_products, 'company')
-  const colors = getUniqueValues(all_products, 'color')
+  const colors = getUniqueValues(all_products, 'colors')
 
   return (
     <Wrapper>
@@ -35,7 +35,6 @@ const Filters = () => {
               type="text"
               name="text"
               placeholder="search"
-              clearFilters="search-input"
               value={text}
               onChange={updateFilters}
             />

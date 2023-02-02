@@ -15,7 +15,7 @@ const ProductList = () => {
   }
 
   if (grid_view === false) {
-    return <LiveView products={products} />
+    return <ListView products={products} />
   }
 
   return <GridView products={products}>product list</GridView>
