@@ -69,11 +69,17 @@ const filter_reducer = (state, action) => {
 
     let tempProducts = [...all_products]
     // filtering
+    // text
     if (text) {
       tempProducts = tempProducts.filter((product) => {
         return product.name.toLowerCase().startsWith(text)
       })
     }
+
+    // category
+
+    // company
+
     return { ...state, filtered_products: tempProducts }
   }
   if (action.type === CLEAR_FILTERS) {
