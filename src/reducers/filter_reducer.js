@@ -75,7 +75,6 @@ const filter_reducer = (state, action) => {
         return product.name.toLowerCase().startsWith(text)
       })
     }
-
     // category
     if (category !== 'all') {
       tempProducts = tempProducts.filter(
@@ -89,17 +88,14 @@ const filter_reducer = (state, action) => {
         (product) => product.company === company
       )
     }
-
-    // color
+    // colors
     if (color !== 'all') {
       tempProducts = tempProducts.filter((product) => {
-        return product.colors.filter((c) => c === color)
+        return product.colors.find((c) => c === color)
       })
     }
-
     // price
     tempProducts = tempProducts.filter((product) => product.price <= price)
-
     // shipping
     if (shipping) {
       tempProducts = tempProducts.filter((product) => product.shipping === true)
