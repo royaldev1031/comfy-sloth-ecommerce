@@ -18,9 +18,8 @@ const AboutPage = () => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae
             adipisci debitis magni alias eligendi odit ipsa hic unde sunt
             provident numquam voluptate sequi perferendis voluptatem placeat
-            magnam, obcaecati quis culpa ullam reiciendis molestias. Amet
-            repudiandae hic culpa architecto nostrum beatae ratione ea,
-            obcaecati ipsam, cupiditate corrupti molestiae quam et unde.
+            magnam, obcaecati quis culpa ullam reiciendis molestias. obcaecati
+            ipsam, cupiditate corrupti molestiae quam et unde.
           </p>
         </article>
       </Wrapper>
